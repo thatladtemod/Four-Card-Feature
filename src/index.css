@@ -18,7 +18,7 @@ header {
   flex-direction: column;
   align-items: center;
   gap: .3rem;
-  margin: auto;
+  margin: 0 auto .7rem;
 }
 header > h2 {
   text-align: center;
@@ -55,7 +55,8 @@ header > p {
   outline: none;
   background-color: hsl(0, 0%, 100%);
   width: 22rem;
-  height: 200px;
+  height: 12.5rem;
+  cursor: pointer;
   transition: all .3s ease-in;
 }
 .card:hover {
@@ -92,7 +93,7 @@ header > p {
   align-items: center;
 }
 .icon-container > img {
-  width: 60px;
+  width: 3.75rem;
 }
 
 /* Responsive Design => Desktop View */
@@ -102,7 +103,7 @@ header > p {
   .main-container {
     display: grid;
     grid-template-columns: repeat(3, 15.625rem);
-    grid-template-rows: 450px;
+    grid-template-rows: 28.125rem;
     gap: 2rem;
   }
   .card {
